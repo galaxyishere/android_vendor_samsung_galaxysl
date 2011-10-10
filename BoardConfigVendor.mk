@@ -12,5 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-BOARD_USES_LIBSECRIL_STUB := false
+USE_CAMERA_STUB := false
+BOARD_USES_GENERIC_AUDIO := false
 TARGET_PROVIDES_LIBRIL := true
+BOARD_USES_LIBSECRIL_STUB := false
