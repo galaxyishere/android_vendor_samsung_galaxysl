@@ -17,29 +17,9 @@
 PRODUCT_COPY_FILES := \
     vendor/samsung/galaxysl/proprietary/ril/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/galaxysl/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libaudio.so:obj/lib/libaudio.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libcamera.so:obj/lib/libcamera.so
 
 # All the blobs necessary for galaxysl
-
-# audio
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libasound.so:system/lib/libasound.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libaudio.so:system/lib/libaudio.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libDVANS.so:system/lib/libDVANS.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/liblvvefs.so:system/lib/liblvvefs.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libsamsungAcousticeq.so:system/lib/libsamsungAcousticeq.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/lib_Samsung_Acoustic_Module_Llite.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/lib_Samsung_Sound_Booster.so:system/lib/lib_Samsung_Sound_Booster.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libsoundalive.so:system/lib/libsoundalive.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libsoundpool.so:system/lib/libsoundpool.so \
-    vendor/samsung/galaxysl/proprietary/audio/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so
 
 # camera
 PRODUCT_COPY_FILES += \
