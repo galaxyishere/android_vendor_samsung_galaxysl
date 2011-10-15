@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/camera/lib/libCaMotion.so:system/lib/libCaMotion.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libjpeg.so:system/lib/libjpeg.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libLCML.so:system/lib/libLCML.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libseccamera.so:system/lib/libseccamera.so \
