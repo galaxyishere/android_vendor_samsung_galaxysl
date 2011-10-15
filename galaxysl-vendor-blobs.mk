@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/camera/lib/libarcplatform.so:system/lib/libarcplatform.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libarcsoft_bookmark.so:system/lib/libarcsoft_bookmark.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libarcsoft_subtitle.so:system/lib/libarcsoft_subtitle.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libbridge.so:system/lib/libbridge.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/samsung/galaxysl/proprietary/camera/lib/libcamera.so:system/lib/libcamera.so \
